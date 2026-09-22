@@ -139,7 +139,7 @@ header.on .navy {
 .hero-section {
     position: relative;
     width: 100%;
-    aspect-ratio: 1 / 0.5;
+    aspect-ratio: 1920/ 868;
     overflow: hidden;
 }
 
@@ -147,6 +147,7 @@ header.on .navy {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: block;
 }
 
 .hero-copy {
@@ -659,7 +660,6 @@ header.on .navy {
 
 /* =========================================================
    KIA CARE HOVER
-   - 작은 설명은 기본에는 없음
    - hover 시 카드 중앙에 2배 크기로 등장
    - 카드/이미지 크기는 그대로
 ========================================================= */
@@ -1388,5 +1388,21 @@ body .wrap {
     .driving-spot .section-heading > a {
         top: .7rem !important;
         font-size: 1.3rem !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .course-cta {
+        width: 100%;
+        height: auto;
+        aspect-ratio: auto;
+        overflow: visible;
+    }
+
+    .course-cta > img {
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: contain;
     }
 }
