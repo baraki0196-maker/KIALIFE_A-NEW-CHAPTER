@@ -1082,8 +1082,7 @@ footer .awards ul li {
 /* DRIVING SPOT 제목 아래 */
 .section-heading .spot-section-comment {
     position: absolute;
-    left: 5px;
-    top: 3rem;
+    top: -1rem;
     z-index: 2;
 }
 
@@ -1094,8 +1093,8 @@ footer .awards ul li {
 
 /* DRIVING COURSE 제목 아래 */
 .driving-course .course-section-comment {
-    margin-top: -0.5rem;
-    margin-left: 5px;
+    margin-top: 0rem;
+    margin-left: 2px;
 }
 
 /* 코멘트와 카드 사이 간격 */
