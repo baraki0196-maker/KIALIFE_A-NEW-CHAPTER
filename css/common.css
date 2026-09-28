@@ -230,6 +230,6 @@ section>.inner {
     .more_btn,
     button,
     a {
-        min-height: 44px;
+        /* min-height: 44px; */
     }
 }

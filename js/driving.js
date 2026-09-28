@@ -84,7 +84,7 @@ $(function(){
         lastScroll = st;
     });
 
-    $('header').mouseenter(function(){
+    $('header .gnb').mouseenter(function(){
         $('.headerbg').stop().slideDown(100)
         $('.sub').stop().slideDown(200)
         $('header').addClass('on')
