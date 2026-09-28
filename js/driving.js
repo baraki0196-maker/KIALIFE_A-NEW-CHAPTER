@@ -85,13 +85,13 @@ $(function(){
     });
 
     $('header').mouseenter(function(){
-        $('.headerbg').slideDown(200)
-        $('.sub').slideDown(100)
+        $('.headerbg').stop().slideDown(100)
+        $('.sub').stop().slideDown(200)
         $('header').addClass('on')
     })
     $('header').mouseleave(function(){
-        $('.headerbg').slideUp(200)
-        $('.sub').slideUp(100)
+        $('.headerbg').stop().slideUp(200)
+        $('.sub').stop().slideUp(100)
         // $('header').removeClass('on')
     })
 
