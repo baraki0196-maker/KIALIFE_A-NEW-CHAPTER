@@ -107,6 +107,7 @@ header .inner .side {
     display: flex;
     gap: 2.4rem;
     transition: all .3s;
+    align-items: center;
 }
 
 header.on {
